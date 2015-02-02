@@ -1,0 +1,17 @@
+Net led<0> 	LOC = H18;	# Bank 3, Vcco=2.5V, No DCI
+Net led<1> 	LOC = L18;	# Bank 3, Vcco=2.5V, No DCI
+Net led<2> 	LOC = G15;	# Bank 3, Vcco=2.5V, No DCI
+Net led<3> 	LOC = AD26;	# Bank 3, Vcco=2.5V, No DCI
+Net led<4> 	LOC = G16;	# Bank 3, Vcco=2.5V, No DCI
+
+Net cpld_led<0> 	LOC = E8;	# Bank 3, Vcco=2.5V, No DCI
+Net cpld_led<1> 	LOC = AG23;	# Bank 3, Vcco=2.5V, No DCI
+Net cpld_led<2> 	LOC = AF13;	# Bank 3, Vcco=2.5V, No DCI
+Net cpld_led<3> 	LOC = AG12;	# Bank 3, Vcco=2.5V, No DCI
+Net cpld_led<4> 	LOC = AF23;	# Bank 3, Vcco=2.5V, No DCI
+
+Net sw<0> 	LOC = AJ6;	# Bank 18, Vcco=3.3V, No DCI
+Net sw<1> 	LOC = AK7;	# Bank 18, Vcco=3.3V, No DCI
+Net sw<2> 	LOC = U8;	# Bank 18, Vcco=3.3V, No DCI
+Net sw<3> 	LOC = AJ7;	# Bank 18, Vcco=3.3V, No DCI
+Net sw<4> 	LOC = V8;	# Bank 18, Vcco=3.3V, No DCI

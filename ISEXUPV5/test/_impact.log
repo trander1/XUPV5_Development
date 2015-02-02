@@ -1,0 +1,162 @@
+iMPACT Version: 14.2
+
+iMPACT log file Started on Mon Feb 02 14:27:43 2015
+
+Welcome to iMPACT
+iMPACT Version: 14.2
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : addConfigDevice  -name "test2" -path"R:\trander1\Xilinx\ISEXUPV5\test"
+// *** BATCH CMD : setSubmode -pffspi
+// *** BATCH CMD : setAttribute -configdevice -attr multibootBpiType -value ""
+// *** BATCH CMD : addDesign -version 0 -name "0"
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : addDeviceChain -index 0
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : addDeviceChain -index 0
+Override chain at index 0.
+Overriding chain at index 0.
+// *** BATCH CMD : setAttribute -configdevice -attr compressed -value "FALSE"
+// *** BATCH CMD : setAttribute -configdevice -attr autoSize -value "FALSE"
+// *** BATCH CMD : setAttribute -configdevice -attr fileFormat -value "mcs"
+// *** BATCH CMD : setAttribute -configdevice -attr fillValue -value "FF"
+// *** BATCH CMD : setAttribute -configdevice -attr swapBit -value "FALSE"
+// *** BATCH CMD : setAttribute -configdevice -attr dir -value "UP"
+// *** BATCH CMD : setAttribute -configdevice -attr multiboot -value "FALSE"
+// *** BATCH CMD : setAttribute -configdevice -attr spiSelected -value "TRUE"
+// *** BATCH CMD : addPromDevice -p 1 -size 4096 -name 4M
+'1': Added Device 4M successfully.
+----------------------------------------------------------------------
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : addDeviceChain -index 0
+Override chain at index 0.
+Overriding chain at index 0.
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : addDeviceChain -index 0
+Override chain at index 0.
+Overriding chain at index 0.
+// *** BATCH CMD : setSubmode -pffspi
+// *** BATCH CMD : setMode -pff
+------------------------  GUI: Wizard Data Report  ---------------------------
+      Compression : false
+      Fill Value : FF
+      Output Format : mcs
+      Swap Bits : false
+      LoadDirection : UP
+      PROM Basename : test2
+      File Location : R:\trander1\Xilinx\ISEXUPV5\test/
+      Auto Select : false
+      Number of Revisions : 1
+      Number of PROMs : 1
+      PROM Name : 4M   PROM Size : 4194304 bits
+-------------------------- END of Report ----------------------------
+// *** BATCH CMD : setAttribute -design -attr name -value "0000"
+// *** BATCH CMD : addDevice -p 1 -file"R:/trander1/Xilinx/ISEXUPV5/test/test.bit"
+'1': Loading file 'R:/trander1/Xilinx/ISEXUPV5/test/test.bit' ...
+INFO:iMPACT - Elapsed time =      2 sec.
+done.
+INFO:iMPACT:501 - '1': Added Device xc5vlx110t successfully.
+----------------------------------------------------------------------
+Add one device.3b5dcaINFO:iMPACT - Current time: 2/2/2015 2:28:34 PM
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setSubmode -pffspi
+Total configuration bit size = 31118848  bits.
+Total configuration byte size = 3889856 bytes.
+// *** BATCH CMD : generate
+0x3b5ac0 (3889856) bytes loaded up from 0x0
+Using user-specified prom size of 4096K
+Writing file"\\sparrow.bgm.bu.int\carpenterresearch\trander1\Xilinx\ISEXUPV5\test\test2.mcs".
+Writing file"\\sparrow.bgm.bu.int\carpenterresearch\trander1\Xilinx\ISEXUPV5\test\test2.prm".
+Writing file"\\sparrow.bgm.bu.int\carpenterresearch\trander1\Xilinx\ISEXUPV5\test\test2.cfi".
+// *** BATCH CMD : setCurrentDesign -version 0
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+INFO:iMPACT - Digilent Plugin: Plugin Version: 2.2.10
+INFO:iMPACT - Digilent Plugin: no JTAG device was found.
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1029.
+ Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 x86_64 64bit SYS14:14:44, version = 1021.
+ Cable PID = 0008.
+ Max current requested during enumeration is 60 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1303.
+File version of C:/Xilinx/14.2/ISE_DS/ISE/data/xusb_xlp.hex = 1303.
+Firmware hex file version = 1303.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      8 sec.
+Type = 0x0004.
+ ESN device is not available for this cable.
+Attempting to identify devices in the boundary-scan chain configuration...
+INFO:iMPACT - Current time: 2/2/2015 2:28:56 PM
+// *** BATCH CMD : Identify -inferir 
+PROGRESS_START - Starting Operation.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc5vlx110t, Version : 10
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/14.2/ISE_DS/ISE/virtex5/data/xc5vlx110t.bsd...
+INFO:iMPACT:501 - '1': Added Device xc5vlx110t successfully.
+----------------------------------------------------------------------
+'1': : Manufacturer's ID = Xilinx xccace, Version : 0
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/14.2/ISE_DS/ISE/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+'2': : Manufacturer's ID = Xilinx xc95144xl, Version : 5
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/14.2/ISE_DS/ISE/xc9500xl/data/xc95144xl.bsd...
+INFO:iMPACT:501 - '1': Added Device xc95144xl successfully.
+----------------------------------------------------------------------
+'3': : Manufacturer's ID = Xilinx xcf32p, Version : 15
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/14.2/ISE_DS/ISE/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+'4': : Manufacturer's ID = Xilinx xcf32p, Version : 15
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+done.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+// *** BATCH CMD : identifyMPM 
+// *** BATCH CMD : assignFile -p 1 -file"R:/trander1/Xilinx/ISEXUPV5/test/test2.mcs"
+'1': Loading file 'R:/trander1/Xilinx/ISEXUPV5/test/test2.mcs' ...
+WARNING:iMPACT - Configuration File 'R:/trander1/Xilinx/ISEXUPV5/test/test2.mcs'   does not have data correctly formatted for this Configuration Mode, As per   the Preference setting the Byte Swapping will be  automatically performed.
+done.
+INFO:iMPACT:1835 - Loading CFI file R:/trander1/Xilinx/ISEXUPV5/test/test2.cfi
+Revision information not found, proceed with device default setting.
+// *** BATCH CMD : setAttribute -position 1 -attr packageName -value ""
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -pff
+INFO:iMPACT - Launching WebTalk, please refer to the webtalk log at   R:\trander1\Xilinx\Push_button\webtalk.log for details.
+INFO:iMPACT - Running wbtc successfully.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : deletePromDevice -position 1
+// *** BATCH CMD : setCurrentDesign -version 0
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : deleteDesign -version 0
+// *** BATCH CMD : setCurrentDesign -version -1

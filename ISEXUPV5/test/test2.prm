@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o R:\trander1\Xilinx\ISEXUPV5\test//test2 -s 4096 -u 0000 R:/trander1/Xilinx/ISEXUPV5/test/test.bit -spi 
+
+PROM \\sparrow.bgm.bu.int\carpenterresearch\trander1\Xilinx\ISEXUPV5\test\test2.prm map: Mon Feb 02 15:05:35 2015
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          4096K
+PROM start    0000:0000
+PROM end      003f:ffff
+PROM checksum 04a23b23
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    003b:5abf     Feb 02 15:03:13 2015 R:/trander1/Xilinx/ISEXUPV5/test/test.bit

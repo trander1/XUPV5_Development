@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.28xd
+# Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.28xd
+DATE            02/02/2015 - 15:05
+SOURCE          \\sparrow.bgm.bu.int\carpenterresearch\trander1\Xilinx\ISEXUPV5\test\test2.mcs
+DEVICE          4096K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x04A23B23
+START_ADDRESS   0x00000000 END_ADDRESS 0x003B5ABF DIRECTION_UP   "R:/trander1/Xilinx/ISEXUPV5/test/test.bit" 5vlx110tff1136

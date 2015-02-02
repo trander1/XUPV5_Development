@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=R:\trander1\Xilinx\ISEXUPV5\test\test.ncd
+OUTFILE=R:\trander1\Xilinx\ISEXUPV5\test\test.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=R:\trander1\Xilinx\ISEXUPV5\test
+LICENSE=ISE
+USER_INFO=176001380_208276972_210576940_222
